@@ -55,15 +55,9 @@
         </dependency>
 
         <!--sentinel -->
-        <dependency>
-            <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
-        </dependency>
-
-        <!-- sentinel需要actuator -->
 <!--        <dependency>-->
-<!--            <groupId>org.springframework.boot</groupId>-->
-<!--            <artifactId>spring‐boot‐starter‐actuator</artifactId>-->
+<!--            <groupId>com.alibaba.cloud</groupId>-->
+<!--            <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>-->
 <!--        </dependency>-->
 
         <!--sentinel持久化 -->
@@ -71,6 +65,14 @@
         <!--<groupId>com.alibaba.csp</groupId>-->
         <!--<artifactId>sentinel-datasource-nacos</artifactId>-->
         <!--</dependency>-->
+
+        <!-- apm-toolkit-logback-1.x -->
+        <!-- 日志中加入Trance ID -->
+        <dependency>
+            <groupId>org.apache.skywalking</groupId>
+            <artifactId>apm-toolkit-logback-1.x</artifactId>
+            <version>8.4.0</version>
+        </dependency>
 
 
     </dependencies>
